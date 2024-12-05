@@ -98,3 +98,8 @@ body{
   border-radius: 6px;
   transition: all 0.375s;
 }
+.listDiv{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
