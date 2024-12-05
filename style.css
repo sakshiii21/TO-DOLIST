@@ -1,0 +1,100 @@
+body{
+    background-color: #2A3663;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #B59F78;
+    height: 100vh;
+    margin: 0;
+}
+.app{
+    margin-left: 25% ;
+}
+.todo-app{
+    background-color: #D8DBBD;
+    width: 70%;
+    max-width: 400px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 5% auto;
+    border-radius: 25px;
+}
+#list-values input[type="text"]{
+    width: 70%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+#list-values button{
+    padding: 10px 20px;
+    background-color: #FAF6E3;
+    color: black;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: 700;
+}
+#list-values button:hover{
+    background-color: #2A3663;
+}
+#to-dolist{
+    list-style: none;
+    padding: 0;
+}
+#to-dolist li{
+    background-color: #B59F78;
+    color: #2A3663;
+    font-size: medium;
+    font-weight: 600;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between
+}
+#to-dolist button{
+    padding: 5px 10px;
+    background-color: #FAF6E3;
+    color: black;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+#to-dolist button:hover{
+    background-color: #2A3663;
+}
+.checkbox-wrapper-39 * {
+  box-sizing: border-box;
+}
+
+.checkbox-wrapper-39 {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.checkbox-wrapper-39 input {
+  display: none;
+}
+
+.checkbox-wrapper-39 input:checked + .checkbox {
+  transform: rotate(45deg);
+  width: 14px;
+  margin-left: 12px;
+  border-color: #2A3663;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-radius: 0;
+}
+
+.checkbox-wrapper-39 .checkbox {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 3px solid #434343;
+  border-radius: 6px;
+  transition: all 0.375s;
+}
